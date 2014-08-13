@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Mono'), local('PTMono-Regular'), url(http://fonts.gstatic.com/s/ptmono/v3/G-CKroWfxRiFDKkMmCHyAgLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2'), url(http://fonts.gstatic.com/s/ptmono/v3/RTA0Dhj_HESY0h-ax44VkwLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
