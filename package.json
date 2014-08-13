@@ -1,0 +1,13 @@
+{
+  "name": "gezi",
+  "version": "0.0.0",
+  "main": "ui.html",
+  "window": {
+    "width": 800,
+    "height": 600,
+    "toolbar": false
+  },
+  "dependencies": {
+    "domquery": "^1.2.0"
+  }
+}
