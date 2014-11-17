@@ -1,13 +1,40 @@
 {
   "name": "gezi",
-  "version": "0.0.0",
-  "main": "ui.html",
+  "version": "1.0.0",
+  "description": "Gezi Web Browser",
+  "main": "ui/main.html",
   "window": {
     "width": 800,
     "height": 600,
-    "toolbar": false
+    "toolbar": true
   },
   "dependencies": {
-    "domquery": "^1.2.0"
-  }
+    "domquery": "^1.2.0",
+    "format-text": "^0.0.3",
+    "less-common-words": "^0.0.0",
+    "parallel-loop": "0.0.3",
+    "parallelly": "0.0.1",
+    "unique-now": "^0.0.1",
+    "uniques": "0.0.1"
+  },
+  "devDependencies": {
+    "prova": "^1.15.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gezi/gezi.git"
+  },
+  "keywords": [
+    "gezi",
+    "browser"
+  ],
+  "author": "Azer Koçulu <azer@kodfabrik.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gezi/gezi/issues"
+  },
+  "homepage": "https://github.com/gezi/gezi"
 }
