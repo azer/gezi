@@ -10,18 +10,11 @@
   },
   "dependencies": {
     "domquery": "^1.2.0",
-    "format-text": "^0.0.3",
-    "less-common-words": "^0.0.0",
+    "gezi-core": "0.0.x",
+    "meta-tags": "0.0.0",
     "parallel-loop": "0.0.3",
-    "parallelly": "0.0.1",
-    "unique-now": "^0.0.1",
-    "uniques": "0.0.1"
-  },
-  "devDependencies": {
-    "prova": "^1.15.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pubsub": "^1.0.2",
+    "title-from-url": "0.0.0"
   },
   "repository": {
     "type": "git",
@@ -36,5 +29,10 @@
   "bugs": {
     "url": "https://github.com/gezi/gezi/issues"
   },
-  "homepage": "https://github.com/gezi/gezi"
+  "homepage": "https://github.com/gezi/gezi",
+  "devDependencies": {
+    "browserify": "^6.3.2",
+    "bud": "^1.0.4",
+    "rm-rf": "^0.1.0"
+  }
 }

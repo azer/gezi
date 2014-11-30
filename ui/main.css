@@ -117,10 +117,10 @@ html, body {
 }
 
 .prompt {
-  font: bold 24px 'PT Mono', Arial;
+  font: 24px 'PT Mono', Arial;
   position: absolute;
   padding: 13px 10px;
-  color: rgba(50, 50, 50, 0.5);
+  color: rgba(50, 50, 50, 0.2);
 }
 
 .overlay {
