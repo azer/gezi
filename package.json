@@ -33,6 +33,8 @@
   "devDependencies": {
     "browserify": "^6.3.2",
     "bud": "^1.0.4",
-    "rm-rf": "^0.1.0"
+    "left-pad": "0.0.3",
+    "rm-rf": "^0.1.0",
+    "style-format": "0.0.0"
   }
 }

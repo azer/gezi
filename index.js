@@ -3,20 +3,25 @@ var parallel = require("parallelly");
 var start = require("./lib/start");
 var search = require("./lib/search");
 var frames = require("./lib/frames");
+var ui = require("./lib/ui");
 
-up();
+//up();
+core.reset(up);
 
 function up () {
-//  core.history.reset(function () {
-    parallel()
-      .run(core.history.init)
-      .and(core.urls.init)
-      .and(core.keywords.init)
-      .and(start)
-      .and(search.init)
-      .and(frames.init)
-      .done(function () {
-        console.log('up now');
-      });
-//});
+  parallel()
+    .run(core.frames.init)
+    .and(core.history.init)
+    .and(core.urls.init)
+    .and(core.keywords.init)
+    .and(ui.init)
+    .and(search.init)
+    .and(frames.init)
+    .done(ready);
+}
+
+function ready () {
+  start(function () {
+    console.log('ready.');
+  });
 }
